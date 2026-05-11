@@ -15,14 +15,15 @@ This repository contains the complete source code and notebooks for my MSc disse
 ## Repository Structure
 
 ```
+├── dashboard/
+│   └── README.md                           # About Dashboard
+│   └── walmart_anomaly_dashboard.pbix      # Power BI dashboard file
+│
 ├── data/
 │   ├── README.md                           # Instructions to download datasets
 ├── src/
 │   ├── walmart_pipeline.ipynb              # Primary pipeline (Walmart dataset)
 │   └── online_retail_validation.ipynb      # Validation pipeline (Online Retail II dataset)                       
-│
-├── dashboard/
-│   └── walmart_anomaly_dashboard.pbix      # Power BI dashboard file
 │
 ├── README.md                               # This file
 └── requirements.txt                        # Python dependencies
