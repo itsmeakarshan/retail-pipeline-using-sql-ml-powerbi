@@ -15,24 +15,14 @@ This repository contains the complete source code and notebooks for my MSc disse
 ## Repository Structure
 
 ```
-├── src/
-│   ├── walmart_pipeline.ipynb              # Primary pipeline (Walmart dataset)
-│   └── online_retail_validation.ipynb      # Validation pipeline (Online Retail II dataset)
-│
 ├── data/
 │   ├── README.md                           # Instructions to download datasets
-│       
-├── outputs/
-│   ├── walmart_anomaly_results.csv         # Full Walmart results with anomaly scores
-│   ├── walmart_anomalies_only.csv          # Flagged anomalies only
-│   ├── online_retail_customer_anomalies.csv # Customer-level validation results
-│   └── online_retail_anomalies_only.csv    # Flagged customer anomalies only
+├── src/
+│   ├── walmart_pipeline.ipynb              # Primary pipeline (Walmart dataset)
+│   └── online_retail_validation.ipynb      # Validation pipeline (Online Retail II dataset)                       
 │
 ├── dashboard/
 │   └── walmart_anomaly_dashboard.pbix      # Power BI dashboard file
-│
-├── paper/
-│   └── dissertation.docx                   # Final dissertation document
 │
 ├── README.md                               # This file
 └── requirements.txt                        # Python dependencies
